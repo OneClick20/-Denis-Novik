@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header fixed" id="header">
+    <nav class="nav" id="nav">
+      <a href="#" class="nav__link active" data-scroll="#intro">Home</a>
+      <a href="#" class="nav__link" data-scroll="#about">About me</a>
+      <a href="#" class="nav__link" data-scroll="#skills">Skills</a>
+      <a href="#" class="nav__link" data-scroll="#portfolio">Portfolio</a>
+      <a href="#" class="nav__link" data-scroll="#contacts">Contacts</a>
+    </nav>
+
+    <hr>
+    <button class="nav-toggle" id="nav_toggle" type="button">
+      <span class="nav-toggle__item">Menu</span>
+    </button>
+  </header>
+
+  <div class="intro" id="intro">
+    <div class="container">
+      <div class="main" id="home">
+        <div class="main__content">
+          <h2 class="main__title">Denis Novik</h2>
+          <div class="main__text">UX | UI designer<br> 24 years old, Minsk</div>
+          <div class="main__language">
+            <div class="main__language_RU">RU</div><b>|</b>
+            <div class="main__language_ENG active">ENG</div>
+          </div>
+        </div>
+        <img src="img/main.jfif" alt="" class="main__image main__image_1">
+        <img src="img/main_1.png" alt="" class="main__image main__image_2">
+      </div>
+    </div>
+  </div>
+
+  <section class="section section_grey">
+    <div class="container">
+      <div class="about" id="about">
+        <h2 class="about__title">About me</h2>
+        <div class="about__text">
+          <div class="about__text_1">Hi, I'm Denis – UX/UI designer from Minsk.  I'm interested in design and everything connected with it.</div>
+          <div class="about__text_2">I'm studying at courses "Web and mobile design  interfaces" in IT-Academy.</div>
+          <div class="about__text_3">Ready to implement excellent projects with wonderful people.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="skills" id="skills">
+        <h2 class="skills__tittle">Skills</h2>
+        <div class="skills__subtitle">I work in such programs as</div>
+        <div class="skills__programs">
+
+          <div class="programs">
+            <img src="img/skills/ps.svg" class="programs__icon"></img>
+            <div class="programs__name">Adobe Photoshop</div>
+            <img src="img/skills/stars.svg" class="programs__score"></img>
+          </div>
+
+          <div class="programs">
+            <img src="img/skills/ai.svg" class="programs__icon"></img>
+            <div class="programs__name">Adobe Illustrator</div>
+            <img src="img/skills/stars.svg" class="programs__score"></img>
+          </div>
+
+          <div class="programs">
+            <img src="img/skills/ae.svg" class="programs__icon"></img>
+            <div class="programs__name">Adobe After Effects</div>
+            <img src="img/skills/stars.svg" class="programs__score"></img>
+          </div>
+
+          <div class="programs">
+            <img src="img/skills/figma.svg" class="programs__icon"></img>
+            <div class="programs__name programs__name_figma">Figma</div>
+            <img src="img/skills/stars.svg" class="programs__score"></img>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section_grey">
+    <div class="container">
+      <div class="portfolio" id="portfolio">
+        <div class="portfolio__title">Portfolio</div>
+        <div class="portfolio__layouts">
+          <div class="layouts">
+            <img src="img/portfolio/1.jpg" alt="" class="layouts__image">
+            <div class="layouts__title">Online fashion store - Homepage</div>
+          </div>
+
+          <div class="layouts">
+            <img src="img/portfolio/2.png" alt="" class="layouts__image">
+            <div class="layouts__title">Reebok Store - Concept</div>
+          </div>
+
+          <div class="layouts">
+            <img src="img/portfolio/3.png" alt="" class="layouts__image">
+            <div class="layouts__title">Braun Landing Page - Concept</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contacts" id="contacts">
+        <div class="contacts__title">Contacts</div>
+        <div class="contacts__subtitle">Want to know more or just chat? You are welcome!</div>
+        <button class="contacts__button">Send message</button>
+        <div class="contacts__icon">
+          <div class="icon">
+            <img src="img/icons/in.svg" alt="" class="icon__image">
+          </div>
+          <div class="icon">
+            <img src="img/icons/inst.svg" alt="" class="icon__image">
+          </div>
+          <div class="icon">
+            <img src="img/icons/be.svg" alt="" class="icon__image">
+          </div>
+          <div class="icon">
+            <img src="img/icons/ball.svg" alt="" class="icon__image">
+          </div>
+        </div>
+        <div class="contacts__text">
+         <div class="contacts__text_one">Like me on</div>
+         <div class="contacts__text_two">LinkedIn, Instagram, Behance, Dribble</div>
+       </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
